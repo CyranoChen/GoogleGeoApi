@@ -1,0 +1,416 @@
+﻿[
+  {
+    "Code": "AB",
+    "CountryCode": "CA",
+    "Name": "Alberta",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "BC",
+    "CountryCode": "CA",
+    "Name": "British Columbia",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "MB",
+    "CountryCode": "CA",
+    "Name": "Manitoba",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "NB",
+    "CountryCode": "CA",
+    "Name": "New Brunswick",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "NF",
+    "CountryCode": "CA",
+    "Name": "Newfoundland and Labrador",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "NS",
+    "CountryCode": "CA",
+    "Name": "Nova Scotia",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "NT",
+    "CountryCode": "CA",
+    "Name": "Northwest Territories",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "NU",
+    "CountryCode": "CA",
+    "Name": "Nunavut",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "ON",
+    "CountryCode": "CA",
+    "Name": "Ontario",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "PE",
+    "CountryCode": "CA",
+    "Name": "Prince Edward Island",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "QC",
+    "CountryCode": "CA",
+    "Name": "Québec",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "SK",
+    "CountryCode": "CA",
+    "Name": "Saskatchewan",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "YK",
+    "CountryCode": "CA",
+    "Name": "Yukon",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "AK",
+    "CountryCode": "US",
+    "Name": "Alaska",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "AL",
+    "CountryCode": "US",
+    "Name": "Alabama",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "AR",
+    "CountryCode": "US",
+    "Name": "Arkansas",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "AS",
+    "CountryCode": "US",
+    "Name": "American Samoa",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "AZ",
+    "CountryCode": "US",
+    "Name": "Arizona",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "CA",
+    "CountryCode": "US",
+    "Name": "California",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "CO",
+    "CountryCode": "US",
+    "Name": "Colorado",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "CT",
+    "CountryCode": "US",
+    "Name": "Connecticut",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "DC",
+    "CountryCode": "US",
+    "Name": "District of Columbia",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "DE",
+    "CountryCode": "US",
+    "Name": "Delaware",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "FL",
+    "CountryCode": "US",
+    "Name": "Florida",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "GA",
+    "CountryCode": "US",
+    "Name": "Georgia",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "GU",
+    "CountryCode": "US",
+    "Name": "Guam",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "HI",
+    "CountryCode": "US",
+    "Name": "Hawaii",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "IA",
+    "CountryCode": "US",
+    "Name": "Iowa",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "ID",
+    "CountryCode": "US",
+    "Name": "Idaho",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "IL",
+    "CountryCode": "US",
+    "Name": "Illinois",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "IN",
+    "CountryCode": "US",
+    "Name": "Indiana",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "KS",
+    "CountryCode": "US",
+    "Name": "Kansas",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "KY",
+    "CountryCode": "US",
+    "Name": "Kentucky",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "LA",
+    "CountryCode": "US",
+    "Name": "Louisiana",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "MA",
+    "CountryCode": "US",
+    "Name": "Massachusetts",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "MD",
+    "CountryCode": "US",
+    "Name": "Maryland",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "ME",
+    "CountryCode": "US",
+    "Name": "Maine",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "MI",
+    "CountryCode": "US",
+    "Name": "Michigan",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "MN",
+    "CountryCode": "US",
+    "Name": "Minnesota",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "MO",
+    "CountryCode": "US",
+    "Name": "Missouri",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "MP",
+    "CountryCode": "US",
+    "Name": "Northern Mariana Isl",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "MS",
+    "CountryCode": "US",
+    "Name": "Mississippi",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "MT",
+    "CountryCode": "US",
+    "Name": "Montana",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "NC",
+    "CountryCode": "US",
+    "Name": "North Carolina",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "ND",
+    "CountryCode": "US",
+    "Name": "North Dakota",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "NE",
+    "CountryCode": "US",
+    "Name": "Nebraska",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "NH",
+    "CountryCode": "US",
+    "Name": "New Hampshire",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "NJ",
+    "CountryCode": "US",
+    "Name": "New Jersey",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "NM",
+    "CountryCode": "US",
+    "Name": "New Mexico",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "NV",
+    "CountryCode": "US",
+    "Name": "Nevada",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "NY",
+    "CountryCode": "US",
+    "Name": "New York",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "OH",
+    "CountryCode": "US",
+    "Name": "Ohio",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "OK",
+    "CountryCode": "US",
+    "Name": "Oklahoma",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "OR",
+    "CountryCode": "US",
+    "Name": "Oregon",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "PA",
+    "CountryCode": "US",
+    "Name": "Pennsylvania",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "PR",
+    "CountryCode": "US",
+    "Name": "Puerto Rico",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "RI",
+    "CountryCode": "US",
+    "Name": "Rhode Island",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "SC",
+    "CountryCode": "US",
+    "Name": "South Carolina",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "SD",
+    "CountryCode": "US",
+    "Name": "South Dakota",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "TN",
+    "CountryCode": "US",
+    "Name": "Tennessee",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "TX",
+    "CountryCode": "US",
+    "Name": "Texas",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "UT",
+    "CountryCode": "US",
+    "Name": "Utah",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "VA",
+    "CountryCode": "US",
+    "Name": "Virginia",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "VI",
+    "CountryCode": "US",
+    "Name": "Virgin Islands",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "VT",
+    "CountryCode": "US",
+    "Name": "Vermont",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "WA",
+    "CountryCode": "US",
+    "Name": "Washington",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "WI",
+    "CountryCode": "US",
+    "Name": "Wisconsin",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "WV",
+    "CountryCode": "US",
+    "Name": "West Virginia",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "WY",
+    "CountryCode": "US",
+    "Name": "Wyoming",
+    "GeoCode": "null"
+  }
+]

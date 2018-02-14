@@ -1,0 +1,937 @@
+﻿[
+  {
+    "Code": "EG",
+    "Name": "Egypt",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "EH",
+    "Name": "West Sahara",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "EL",
+    "Name": "Greece",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "ER",
+    "Name": "Eritrea",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "ES",
+    "Name": "Spain",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "ET",
+    "Name": "Ethiopia",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "FI",
+    "Name": "Finland",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "FJ",
+    "Name": "Fiji",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "FK",
+    "Name": "Falkland Islands",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "FM",
+    "Name": "Micronesia",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "FO",
+    "Name": "Faroe Islands",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "FR",
+    "Name": "France",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "GA",
+    "Name": "Gabon",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "GB",
+    "Name": "United Kingdom",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "GD",
+    "Name": "Grenada",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "GE",
+    "Name": "Georgia",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "GF",
+    "Name": "French Guayana",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "GG",
+    "Name": "Guernsey",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "GH",
+    "Name": "Ghana",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "GI",
+    "Name": "Gibraltar",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "GL",
+    "Name": "Greenland",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "GM",
+    "Name": "Gambia",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "GN",
+    "Name": "Guinea",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "GP",
+    "Name": "Guadeloupe",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "GQ",
+    "Name": "Equatorial Guinea",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "GR",
+    "Name": "Greece",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "GS",
+    "Name": "S. Sandwich Ins",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "GT",
+    "Name": "Guatemala",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "GU",
+    "Name": "Guam",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "GW",
+    "Name": "Guinea-Bissau",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "GY",
+    "Name": "Guyana",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "HK",
+    "Name": "Hong Kong",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "HM",
+    "Name": "Heard/McDnld Islnds",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "HN",
+    "Name": "Honduras",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "HR",
+    "Name": "Croatia",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "HT",
+    "Name": "Haiti",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "HU",
+    "Name": "Hungary",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "ID",
+    "Name": "Indonesia",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "IE",
+    "Name": "Ireland",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "IL",
+    "Name": "Israel",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "IM",
+    "Name": "Isle of Man",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "IN",
+    "Name": "India",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "IO",
+    "Name": "Brit.Ind.Oc.Ter",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "IQ",
+    "Name": "Iraq",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "IR",
+    "Name": "Iran",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "IS",
+    "Name": "Iceland",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "IT",
+    "Name": "Italy",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "JE",
+    "Name": "Jersey",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "JM",
+    "Name": "Jamaica",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "JO",
+    "Name": "Jordan",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "JP",
+    "Name": "Japan",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "KE",
+    "Name": "Kenya",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "KG",
+    "Name": "Kyrgyzstan",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "KH",
+    "Name": "Cambodia",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "KI",
+    "Name": "Kiribati",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "KM",
+    "Name": "Comoros",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "KN",
+    "Name": "St Kitts & Nevis",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "KP",
+    "Name": "North Korea",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "KR",
+    "Name": "South Korea",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "KW",
+    "Name": "Kuwait",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "KY",
+    "Name": "Cayman Islands",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "KZ",
+    "Name": "Kazakhstan",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "LA",
+    "Name": "Laos",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "LB",
+    "Name": "Lebanon",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "LC",
+    "Name": "St. Lucia",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "LI",
+    "Name": "Liechtenstein",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "LK",
+    "Name": "Sri Lanka",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "LR",
+    "Name": "Liberia",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "LS",
+    "Name": "Lesotho",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "LT",
+    "Name": "Lithuania",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "LU",
+    "Name": "Luxembourg",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "LV",
+    "Name": "Latvia",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "LY",
+    "Name": "Libya",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "MA",
+    "Name": "Morocco",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "MC",
+    "Name": "Monaco",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "MD",
+    "Name": "Moldavia",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "ME",
+    "Name": "Montenegro",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "MF",
+    "Name": "Saint Martin",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "MG",
+    "Name": "Madagascar",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "MH",
+    "Name": "Marshall Islands",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "MK",
+    "Name": "Macedonia",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "ML",
+    "Name": "Mali",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "MM",
+    "Name": "Myanmar",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "MN",
+    "Name": "Mongolia",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "MO",
+    "Name": "Macau",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "MP",
+    "Name": "N.Mariana Island",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "MQ",
+    "Name": "Martinique",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "MR",
+    "Name": "Mauretania",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "MS",
+    "Name": "Montserrat",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "MT",
+    "Name": "Malta",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "MU",
+    "Name": "Mauritius",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "MV",
+    "Name": "Maldives",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "MW",
+    "Name": "Malawi",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "MX",
+    "Name": "Mexico",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "MY",
+    "Name": "Malaysia",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "MZ",
+    "Name": "Mozambique",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "NA",
+    "Name": "Namibia",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "NC",
+    "Name": "New Caledonia",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "NE",
+    "Name": "Niger",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "NF",
+    "Name": "Norfolk Island",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "NG",
+    "Name": "Nigeria",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "NI",
+    "Name": "Nicaragua",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "NL",
+    "Name": "Netherlands",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "NO",
+    "Name": "Norway",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "NP",
+    "Name": "Nepal",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "NR",
+    "Name": "Nauru",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "NU",
+    "Name": "Niue Islands",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "NZ",
+    "Name": "New Zealand",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "OM",
+    "Name": "Oman",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "PA",
+    "Name": "Panama",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "PE",
+    "Name": "Peru",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "PF",
+    "Name": "French Polynesia",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "PG",
+    "Name": "Papua New Guinea",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "PH",
+    "Name": "Philippines",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "PK",
+    "Name": "Pakistan",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "PL",
+    "Name": "Poland",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "PM",
+    "Name": "St.Pier,Miquel.",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "PN",
+    "Name": "Pitcairn Islands",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "PR",
+    "Name": "Puerto Rico",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "PS",
+    "Name": "Palestinian Territory",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "PT",
+    "Name": "Portugal",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "PW",
+    "Name": "Palau",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "PY",
+    "Name": "Paraguay",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "QA",
+    "Name": "Qatar",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "RE",
+    "Name": "Reunion",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "RO",
+    "Name": "Romania",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "RS",
+    "Name": "Serbia",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "RU",
+    "Name": "Russian Fed.",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "RW",
+    "Name": "Ruanda",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "SA",
+    "Name": "Saudi Arabia",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "SB",
+    "Name": "Solomon Islands",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "SC",
+    "Name": "Seychelles",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "SD",
+    "Name": "Sudan",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "SE",
+    "Name": "Sweden",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "SG",
+    "Name": "Singapore",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "SH",
+    "Name": "St. Helena",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "SI",
+    "Name": "Slovenia",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "SJ",
+    "Name": "Svalbard",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "SK",
+    "Name": "Slovakia",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "SL",
+    "Name": "Sierra Leone",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "SM",
+    "Name": "San Marino",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "SN",
+    "Name": "Senegal",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "SO",
+    "Name": "Somalia",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "SR",
+    "Name": "Suriname",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "ST",
+    "Name": "S.Tome,Principe",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "SV",
+    "Name": "El Salvador",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "SX",
+    "Name": "Sint Maarten",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "SY",
+    "Name": "Syria",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "SZ",
+    "Name": "Swaziland",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "TC",
+    "Name": "Turksh Caicosin",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "TD",
+    "Name": "Chad",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "TF",
+    "Name": "French S.Territ",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "TG",
+    "Name": "Togo",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "TH",
+    "Name": "Thailand",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "TJ",
+    "Name": "Tajikstan",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "TK",
+    "Name": "Tokelau Islands",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "TL",
+    "Name": "East Timor",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "TM",
+    "Name": "Turkmenistan",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "TN",
+    "Name": "Tunisia",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "TO",
+    "Name": "Tonga",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "TP",
+    "Name": "East Timor",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "TR",
+    "Name": "Turkey",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "TT",
+    "Name": "Trinidad,Tobago",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "TV",
+    "Name": "Tuvalu",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "TW",
+    "Name": "Taiwan",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "TZ",
+    "Name": "Tanzania",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "UA",
+    "Name": "Ukraine",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "UG",
+    "Name": "Uganda",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "UM",
+    "Name": "Minor Outl.Ins.",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "US",
+    "Name": "USA",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "UY",
+    "Name": "Uruguay",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "UZ",
+    "Name": "Uzbekistan",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "VA",
+    "Name": "Vatican City",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "VC",
+    "Name": "St. Vincent",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "VE",
+    "Name": "Venezuela",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "VG",
+    "Name": "British Virg. Islnd",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "VI",
+    "Name": "American Virg.Islnd",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "VN",
+    "Name": "Vietnam",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "VU",
+    "Name": "Vanuatu",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "WF",
+    "Name": "Wallis,Futuna",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "WS",
+    "Name": "Western Samoa",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "XX",
+    "Name": "-No Country-",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "YE",
+    "Name": "Yemen",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "YT",
+    "Name": "Mayotte",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "ZA",
+    "Name": "South Africa",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "ZM",
+    "Name": "Zambia",
+    "GeoCode": "null"
+  },
+  {
+    "Code": "ZW",
+    "Name": "Zimbabwe",
+    "GeoCode": "null"
+  }
+]

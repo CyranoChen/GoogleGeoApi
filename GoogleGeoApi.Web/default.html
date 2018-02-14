@@ -1,0 +1,280 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Place Autocomplete Address Form</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+    <style type="text/css">
+        /* Always set the map height explicitly to define the size of the div
+        * element that contains the map. */
+        #map {
+            height: 100%;
+        }
+        /* Optional: Makes the sample page fill the window. */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+
+    <style>
+        #locationField, #controls {
+            position: relative;
+            width: 480px;
+        }
+
+        #autocomplete {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 99%;
+        }
+
+        .label {
+            text-align: right;
+            font-weight: bold;
+            width: 100px;
+            color: #303030;
+        }
+
+        #address {
+            border: 1px solid #000090;
+            background-color: #f0f0ff;
+            width: 480px;
+            padding-right: 2px;
+        }
+
+            #address td {
+                font-size: 10pt;
+            }
+
+        .field {
+            width: 99%;
+        }
+
+        .slimField {
+            width: 80px;
+        }
+
+        .wideField {
+            width: 200px;
+        }
+
+        #locationField {
+            height: 20px;
+            margin-bottom: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="locationField">
+            <input id="autocomplete" placeholder="Enter your address" onFocus="geolocate()" type="text" />
+        </div>
+
+        <table id="address">
+            <tr>
+                <td class="label">Street address</td>
+                <td class="slimField">
+                    <input class="field" id="street_number" disabled="true" />
+                </td>
+                <td class="wideField" colspan="2">
+                    <input class="field" id="route" disabled="true" />
+                </td>
+            </tr>
+            <tr>
+                <td class="label">City</td>
+                <!-- Note: Selection of address components in this example is typical.
+                You may need to adjust it for the locations relevant to your app. See
+                https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-addressform
+                -->
+                <td class="wideField" colspan="3">
+                    <input class="field" id="locality" disabled="true" />
+                </td>
+            </tr>
+            <tr>
+                <td class="label">State</td>
+                <td class="slimField">
+                    <input class="field" id="administrative_area_level_1" disabled="true" />
+                </td>
+                <td class="label">Zip code</td>
+                <td class="wideField">
+                    <input class="field" id="postal_code" disabled="true" />
+                </td>
+            </tr>
+            <tr>
+                <td class="label">Country</td>
+                <td class="wideField" colspan="3">
+                    <input class="field" id="country" disabled="true" />
+                </td>
+            </tr>
+        </table>
+
+        <table style="width: 480px">
+            <tr>
+                <td colspan="2">
+                    <input id="input-combine" style="width: 380px" placeholder="State, Country combined by Google" />
+                    <button id="btn-find-combine">find once</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input id="input-state" style="width: 150px" placeholder="State filled by Google" />
+                    <button id="btn-gen-state">gen</button>
+                    <button id="btn-find-state">find</button>
+                </td>
+                <td>
+                    <input id="input-country" style="width: 150px" placeholder="Country filled by Google" />
+                    <button id="btn-gen-country">gen</button>
+                    <button id="btn-find-country">find</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <select id="select-state" style="width: 200px"></select>
+                </td>
+                <td>
+                    <select id="select-country" style="width: 200px"></select>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASawSYd14E234TX0YN7vhXOBjeIuswxsw&libraries=places&callback=initAutocomplete"
+            async defer></script>
+
+    <script type="text/javascript">
+        // This example displays an address form, using the autocomplete feature
+        // of the Google Places API to help users fill in the information.
+
+        // This example requires the Places library. Include the libraries=places
+        // parameter when you first load the API. For example:
+        // <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
+
+        var placeSearch, autocomplete;
+        var componentForm = {
+            street_number: 'short_name',
+            route: 'long_name',
+            locality: 'long_name',
+            administrative_area_level_1: 'short_name',
+            country: 'long_name',
+            postal_code: 'short_name'
+        };
+
+        function initAutocomplete() {
+            // Create the autocomplete object, restricting the search to geographical
+            // location types.
+            autocomplete = new google.maps.places.Autocomplete(
+                /** @type {!HTMLInputElement} */
+                (document.getElementById('autocomplete')),
+                { types: ['geocode'] });
+
+            // When the user selects an address from the dropdown, populate the address
+            // fields in the form.
+            autocomplete.addListener('place_changed', fillInAddress);
+        }
+
+        function fillInAddress() {
+            // Get the place details from the autocomplete object.
+            var place = autocomplete.getPlace();
+
+            for (var component in componentForm) {
+                document.getElementById(component).value = '';
+                document.getElementById(component).disabled = false;
+            }
+
+            // Get each component of the address from the place details
+            // and fill the corresponding field on the form.
+            for (var i = 0; i < place.address_components.length; i++) {
+                var addressType = place.address_components[i].types[0];
+                if (componentForm[addressType]) {
+                    var val = place.address_components[i][componentForm[addressType]];
+                    document.getElementById(addressType).value = val;
+                }
+            }
+        }
+
+        // Bias the autocomplete object to the user's geographical location,
+        // as supplied by the browser's 'navigator.geolocation' object.
+        function geolocate() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(function (position) {
+                    var geolocation = {
+                        lat: position.coords.latitude,
+                        lng: position.coords.longitude
+                    };
+                    var circle = new google.maps.Circle({
+                        center: geolocation,
+                        radius: position.coords.accuracy
+                    });
+                    autocomplete.setBounds(circle.getBounds());
+                });
+            }
+        }
+    </script>
+
+    <script type="text/javascript" src="Scripts/jquery-3.3.1.min.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            $.getJSON("/api/GeoList.svc/States", function (data, status) {
+                if (status === "success" && data != null) {
+                    if (JSON.stringify(data) !== "{}") {
+                        $("#select-state").empty().append($("<option>", { value: " " })
+                            .text("total " + data.d.length + " states"));
+                        $.each(data.d,
+                            function (i, entry) {
+                                $("#select-state").append($("<option>", { value: entry.GeoCode })
+                                    .text(entry.Name + " (" + entry.Code + "), " + entry.CountryCode));
+                            });
+                    }
+                }
+            });
+
+            $.getJSON("/api/GeoList.svc/Countries", function (data, status) {
+                if (status === "success" && data != null) {
+                    if (JSON.stringify(data) !== "{}") {
+                        $("#select-country").empty().append($("<option>", { value: " " })
+                            .text("total " + data.d.length + " countries"));
+                        $.each(data.d,
+                            function (i, entry) {
+                                $("#select-country").append($("<option>", { value: entry.GeoCode })
+                                    .text(entry.Name + " (" + entry.Code + ")"));
+                            });
+                    }
+                }
+            });
+
+            $("#btn-find-combine").click(function () {
+                $("#input-combine").val($("#autocomplete").val());
+            });
+
+            $("#btn-find-state").click(function () {
+                $("#input-state").val($("#administrative_area_level_1").val());
+
+                $("#select-state").val($("#administrative_area_level_1").val());
+
+                if ($("#select-state").val() == null) {
+                    // Get GeoCode
+                    alert("not found");
+                }
+            });
+
+            $("#btn-find-country").click(function () {
+                $("#input-country").val($("#country").val());
+
+                $("#select-country").val($("#country").val());
+
+                if ($("#select-country").val() == null) {
+                    // Get GeoCode
+                    alert("not found");
+                }
+            });
+
+        });
+    </script>
+</body>
+</html>
