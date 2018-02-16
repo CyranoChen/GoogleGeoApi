@@ -115,7 +115,7 @@
 
         <table style="width: 480px">
             <tr>
-                <td colspan="2">
+                <td colspan="2" style="display: none">
                     <input id="input-combine" style="width: 380px" placeholder="State, Country combined by Google" />
                     <button id="btn-find-combine">find once</button>
                 </td>
@@ -248,29 +248,74 @@
                 }
             });
 
-            $("#btn-find-combine").click(function () {
-                $("#input-combine").val($("#autocomplete").val());
-            });
+            const GOOGLE_MAP_API_ADDRESS = "https://maps.googleapis.com/maps/api/geocode/json";
+            const API_KEY = "AIzaSyASawSYd14E234TX0YN7vhXOBjeIuswxsw";
+
+            //$("#btn-find-combine").click(function () {
+            //    var address = $("#administrative_area_level_1").val() + ", " + $("#country").val();
+            //    $("#input-combine").val(address);
+
+            //    // Get GeoCode combined with state and country
+            //    $.getJSON(GOOGLE_MAP_API_ADDRESS, { address: address.replace(' ', '+'), key: API_KEY }, function (data, status) {
+            //        if (status === "success" && data != null) {
+            //            if (data.results[0].address_components.length > 0) {
+            //                $.each(data.results[0].address_components,
+            //                    function (i, entry) {
+            //                        if (entry.types[0] === "administrative_area_level_1") {
+            //                            var state = entry.long_name;
+            //                            $("#input-state").val(state);
+            //                            $("#select-state").val(state);
+            //                        }
+
+            //                        if (entry.types[0] === "country") {
+            //                            var country = entry.long_name;
+            //                            $("#input-country").val(country);
+            //                            $("#select-country").val(country);
+            //                        }
+            //                    });
+            //            }
+
+            //        }
+            //    });
+            //});
 
             $("#btn-find-state").click(function () {
-                $("#input-state").val($("#administrative_area_level_1").val());
+                var state = $("#administrative_area_level_1").val();
+                $("#input-state").val(state);
+                $("#select-state").val(state);
 
-                $("#select-state").val($("#administrative_area_level_1").val());
+                if ($("#input-country").val() !== "") {
+                    state += (", " + $("#input-country").val());
+                }
 
                 if ($("#select-state").val() == null) {
                     // Get GeoCode
-                    alert("not found");
+                    $.getJSON(GOOGLE_MAP_API_ADDRESS, { address: state.replace(' ', '+'), key: API_KEY }, function (data, status) {
+                        if (status === "success" && data != null) {
+                            if (JSON.stringify(data) !== "{}" && data.status === "OK") {
+                                alert("Ouput State: "+ data.results[0].formatted_address);
+                                $("#select-state").val(data.results[0].formatted_address);
+                            }
+                        }
+                    });
                 }
             });
 
             $("#btn-find-country").click(function () {
-                $("#input-country").val($("#country").val());
-
-                $("#select-country").val($("#country").val());
+                var country = $("#country").val();
+                $("#input-country").val(country);
+                $("#select-country").val(country);
 
                 if ($("#select-country").val() == null) {
                     // Get GeoCode
-                    alert("not found");
+                    $.getJSON(GOOGLE_MAP_API_ADDRESS, { address: country.replace(' ', '+'), key: API_KEY }, function (data, status) {
+                        if (status === "success" && data != null) {
+                            if (JSON.stringify(data) !== "{}" && data.status === "OK") {
+                                alert("Ouput Country: " + data.results[0].formatted_address);
+                                $("#select-country").val(data.results[0].formatted_address);
+                            }
+                        }
+                    });
                 }
             });
 

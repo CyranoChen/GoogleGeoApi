@@ -1,11 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
+using System.IO;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.ServiceModel.Activation;
 using System.ServiceModel.Web;
 using System.Text;
+using GoogleGeoApi.Web.Models;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
 
 namespace GoogleGeoApi.Web.Api
 {
@@ -21,51 +26,46 @@ namespace GoogleGeoApi.Web.Api
 
         [WebGet]
         [OperationContract]
-        public List<State> States()
+        public IEnumerable<State> States()
         {
-            var list = new List<State>();
+            var file_path = ConfigurationManager.AppSettings["JsonFilePath"] + "state.json";
 
-            list.Add(new State { Code = "SH", CountryCode = "CN", Name = "Shang Hai", GeoCode = "Shanghai" });
-            list.Add(new State { Code = "BJ", CountryCode = "CN", Name = "Bei Jing", GeoCode = "Beijing" });
+            using (var sr = new StreamReader(file_path))
+            {
+                var serializer = new JsonSerializer();
+                serializer.Converters.Add(new JavaScriptDateTimeConverter());
+                //serializer.NullValueHandling = NullValueHandling.Ignore;
 
-            return list;
+                //构建Json.net的读取流  
+                JsonReader reader = new JsonTextReader(sr);
+
+                //对读取出的Json.net的reader流进行反序列化，并装载到模型中  
+                var list = serializer.Deserialize<List<State>>(reader);
+
+                return list.OrderBy(x => x.CountryCode).ThenBy(x => x.Code);
+            }
         }
 
         [WebGet]
         [OperationContract]
-        public List<Country> Countries()
+        public IEnumerable<Country> Countries()
         {
-            var list = new List<Country>();
+            var file_path = ConfigurationManager.AppSettings["JsonFilePath"] + "country.json";
 
-            list.Add(new Country { Code = "CN", Name = "China PR", GeoCode = "China" });
-            list.Add(new Country { Code = "UK", Name = "Great Britain", GeoCode = "United Kingdom" });
+            using (var sr = new StreamReader(file_path))
+            {
+                var serializer = new JsonSerializer();
+                serializer.Converters.Add(new JavaScriptDateTimeConverter());
+                //serializer.NullValueHandling = NullValueHandling.Ignore;
 
+                //构建Json.net的读取流  
+                JsonReader reader = new JsonTextReader(sr);
 
-            return list;
-        }
+                //对读取出的Json.net的reader流进行反序列化，并装载到模型中  
+                var list = serializer.Deserialize<List<Country>>(reader);
 
-        [DataContract]
-        public class State
-        {
-            [DataMember]
-            public string Code { get; set; }
-            [DataMember]
-            public string CountryCode { get; set; }
-            [DataMember]
-            public string Name { get; set; }
-            [DataMember]
-            public string GeoCode { get; set; }
-        }
-
-        [DataContract]
-        public class Country
-        {
-            [DataMember]
-            public string Code { get; set; }
-            [DataMember]
-            public string Name { get; set; }
-            [DataMember]
-            public string GeoCode { get; set; }
+                return list.OrderBy(x => x.Code);
+            }
         }
     }
 }
