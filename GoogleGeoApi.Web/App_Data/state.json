@@ -1,416 +1,416 @@
-﻿[
+[
   {
     "Code": "AB",
     "CountryCode": "CA",
     "Name": "Alberta",
-    "GeoCode": "null"
+    "GeoCode": "Alberta, Canada"
   },
   {
     "Code": "BC",
     "CountryCode": "CA",
     "Name": "British Columbia",
-    "GeoCode": "null"
+    "GeoCode": "British Columbia, Canada"
   },
   {
     "Code": "MB",
     "CountryCode": "CA",
     "Name": "Manitoba",
-    "GeoCode": "null"
+    "GeoCode": "Manitoba, Canada"
   },
   {
     "Code": "NB",
     "CountryCode": "CA",
     "Name": "New Brunswick",
-    "GeoCode": "null"
+    "GeoCode": "New Brunswick, Canada"
   },
   {
     "Code": "NF",
     "CountryCode": "CA",
     "Name": "Newfoundland and Labrador",
-    "GeoCode": "null"
+    "GeoCode": "Newfoundland and Labrador, Canada"
   },
   {
     "Code": "NS",
     "CountryCode": "CA",
     "Name": "Nova Scotia",
-    "GeoCode": "null"
+    "GeoCode": "Nova Scotia, Canada"
   },
   {
     "Code": "NT",
     "CountryCode": "CA",
     "Name": "Northwest Territories",
-    "GeoCode": "null"
+    "GeoCode": "Northwest Territories, Canada"
   },
   {
     "Code": "NU",
     "CountryCode": "CA",
     "Name": "Nunavut",
-    "GeoCode": "null"
+    "GeoCode": "Nunavut, Canada"
   },
   {
     "Code": "ON",
     "CountryCode": "CA",
     "Name": "Ontario",
-    "GeoCode": "null"
+    "GeoCode": "Ontario, CA, USA"
   },
   {
     "Code": "PE",
     "CountryCode": "CA",
     "Name": "Prince Edward Island",
-    "GeoCode": "null"
+    "GeoCode": "Prince Edward Island, Canada"
   },
   {
     "Code": "QC",
     "CountryCode": "CA",
     "Name": "Québec",
-    "GeoCode": "null"
+    "GeoCode": "Quebec, Canada"
   },
   {
     "Code": "SK",
     "CountryCode": "CA",
     "Name": "Saskatchewan",
-    "GeoCode": "null"
+    "GeoCode": "Saskatchewan, Canada"
   },
   {
     "Code": "YK",
     "CountryCode": "CA",
     "Name": "Yukon",
-    "GeoCode": "null"
+    "GeoCode": "Yukon Territory, Canada"
   },
   {
     "Code": "AK",
     "CountryCode": "US",
     "Name": "Alaska",
-    "GeoCode": "null"
+    "GeoCode": "Alaska, USA"
   },
   {
     "Code": "AL",
     "CountryCode": "US",
     "Name": "Alabama",
-    "GeoCode": "null"
+    "GeoCode": "Alabama, USA"
   },
   {
     "Code": "AR",
     "CountryCode": "US",
     "Name": "Arkansas",
-    "GeoCode": "null"
+    "GeoCode": "Arkansas, USA"
   },
   {
     "Code": "AS",
     "CountryCode": "US",
     "Name": "American Samoa",
-    "GeoCode": "null"
+    "GeoCode": "American Samoa"
   },
   {
     "Code": "AZ",
     "CountryCode": "US",
     "Name": "Arizona",
-    "GeoCode": "null"
+    "GeoCode": "Arizona, USA"
   },
   {
     "Code": "CA",
     "CountryCode": "US",
     "Name": "California",
-    "GeoCode": "null"
+    "GeoCode": "California, USA"
   },
   {
     "Code": "CO",
     "CountryCode": "US",
     "Name": "Colorado",
-    "GeoCode": "null"
+    "GeoCode": "Colorado, USA"
   },
   {
     "Code": "CT",
     "CountryCode": "US",
     "Name": "Connecticut",
-    "GeoCode": "null"
+    "GeoCode": "Connecticut, USA"
   },
   {
     "Code": "DC",
     "CountryCode": "US",
     "Name": "District of Columbia",
-    "GeoCode": "null"
+    "GeoCode": "Washington, DC, USA"
   },
   {
     "Code": "DE",
     "CountryCode": "US",
     "Name": "Delaware",
-    "GeoCode": "null"
+    "GeoCode": "Delaware, USA"
   },
   {
     "Code": "FL",
     "CountryCode": "US",
     "Name": "Florida",
-    "GeoCode": "null"
+    "GeoCode": "Florida, USA"
   },
   {
     "Code": "GA",
     "CountryCode": "US",
     "Name": "Georgia",
-    "GeoCode": "null"
+    "GeoCode": "Georgia, USA"
   },
   {
     "Code": "GU",
     "CountryCode": "US",
     "Name": "Guam",
-    "GeoCode": "null"
+    "GeoCode": "Guam"
   },
   {
     "Code": "HI",
     "CountryCode": "US",
     "Name": "Hawaii",
-    "GeoCode": "null"
+    "GeoCode": "Hawaii, USA"
   },
   {
     "Code": "IA",
     "CountryCode": "US",
     "Name": "Iowa",
-    "GeoCode": "null"
+    "GeoCode": "Iowa, USA"
   },
   {
     "Code": "ID",
     "CountryCode": "US",
     "Name": "Idaho",
-    "GeoCode": "null"
+    "GeoCode": "Idaho, USA"
   },
   {
     "Code": "IL",
     "CountryCode": "US",
     "Name": "Illinois",
-    "GeoCode": "null"
+    "GeoCode": "Illinois, USA"
   },
   {
     "Code": "IN",
     "CountryCode": "US",
     "Name": "Indiana",
-    "GeoCode": "null"
+    "GeoCode": "Indiana, USA"
   },
   {
     "Code": "KS",
     "CountryCode": "US",
     "Name": "Kansas",
-    "GeoCode": "null"
+    "GeoCode": "Kansas, USA"
   },
   {
     "Code": "KY",
     "CountryCode": "US",
     "Name": "Kentucky",
-    "GeoCode": "null"
+    "GeoCode": "Kentucky, USA"
   },
   {
     "Code": "LA",
     "CountryCode": "US",
     "Name": "Louisiana",
-    "GeoCode": "null"
+    "GeoCode": "Louisiana, USA"
   },
   {
     "Code": "MA",
     "CountryCode": "US",
     "Name": "Massachusetts",
-    "GeoCode": "null"
+    "GeoCode": "Massachusetts, USA"
   },
   {
     "Code": "MD",
     "CountryCode": "US",
     "Name": "Maryland",
-    "GeoCode": "null"
+    "GeoCode": "Maryland, USA"
   },
   {
     "Code": "ME",
     "CountryCode": "US",
     "Name": "Maine",
-    "GeoCode": "null"
+    "GeoCode": "Maine, USA"
   },
   {
     "Code": "MI",
     "CountryCode": "US",
     "Name": "Michigan",
-    "GeoCode": "null"
+    "GeoCode": "Michigan, USA"
   },
   {
     "Code": "MN",
     "CountryCode": "US",
     "Name": "Minnesota",
-    "GeoCode": "null"
+    "GeoCode": "Minnesota, USA"
   },
   {
     "Code": "MO",
     "CountryCode": "US",
     "Name": "Missouri",
-    "GeoCode": "null"
+    "GeoCode": "Missouri, USA"
   },
   {
     "Code": "MP",
     "CountryCode": "US",
     "Name": "Northern Mariana Isl",
-    "GeoCode": "null"
+    "GeoCode": "Northern Mariana Islands"
   },
   {
     "Code": "MS",
     "CountryCode": "US",
     "Name": "Mississippi",
-    "GeoCode": "null"
+    "GeoCode": "Mississippi, USA"
   },
   {
     "Code": "MT",
     "CountryCode": "US",
     "Name": "Montana",
-    "GeoCode": "null"
+    "GeoCode": "Montana, USA"
   },
   {
     "Code": "NC",
     "CountryCode": "US",
     "Name": "North Carolina",
-    "GeoCode": "null"
+    "GeoCode": "North Carolina, USA"
   },
   {
     "Code": "ND",
     "CountryCode": "US",
     "Name": "North Dakota",
-    "GeoCode": "null"
+    "GeoCode": "North Dakota, USA"
   },
   {
     "Code": "NE",
     "CountryCode": "US",
     "Name": "Nebraska",
-    "GeoCode": "null"
+    "GeoCode": "Nebraska, USA"
   },
   {
     "Code": "NH",
     "CountryCode": "US",
     "Name": "New Hampshire",
-    "GeoCode": "null"
+    "GeoCode": "New Hampshire, USA"
   },
   {
     "Code": "NJ",
     "CountryCode": "US",
     "Name": "New Jersey",
-    "GeoCode": "null"
+    "GeoCode": "New Jersey, USA"
   },
   {
     "Code": "NM",
     "CountryCode": "US",
     "Name": "New Mexico",
-    "GeoCode": "null"
+    "GeoCode": "New Mexico, USA"
   },
   {
     "Code": "NV",
     "CountryCode": "US",
     "Name": "Nevada",
-    "GeoCode": "null"
+    "GeoCode": "Nevada, USA"
   },
   {
     "Code": "NY",
     "CountryCode": "US",
     "Name": "New York",
-    "GeoCode": "null"
+    "GeoCode": "New York, NY, USA"
   },
   {
     "Code": "OH",
     "CountryCode": "US",
     "Name": "Ohio",
-    "GeoCode": "null"
+    "GeoCode": "Ohio, USA"
   },
   {
     "Code": "OK",
     "CountryCode": "US",
     "Name": "Oklahoma",
-    "GeoCode": "null"
+    "GeoCode": "Oklahoma, USA"
   },
   {
     "Code": "OR",
     "CountryCode": "US",
     "Name": "Oregon",
-    "GeoCode": "null"
+    "GeoCode": "Oregon, USA"
   },
   {
     "Code": "PA",
     "CountryCode": "US",
     "Name": "Pennsylvania",
-    "GeoCode": "null"
+    "GeoCode": "Pennsylvania, USA"
   },
   {
     "Code": "PR",
     "CountryCode": "US",
     "Name": "Puerto Rico",
-    "GeoCode": "null"
+    "GeoCode": "Puerto Rico"
   },
   {
     "Code": "RI",
     "CountryCode": "US",
     "Name": "Rhode Island",
-    "GeoCode": "null"
+    "GeoCode": "Rhode Island, USA"
   },
   {
     "Code": "SC",
     "CountryCode": "US",
     "Name": "South Carolina",
-    "GeoCode": "null"
+    "GeoCode": "South Carolina, USA"
   },
   {
     "Code": "SD",
     "CountryCode": "US",
     "Name": "South Dakota",
-    "GeoCode": "null"
+    "GeoCode": "South Dakota, USA"
   },
   {
     "Code": "TN",
     "CountryCode": "US",
     "Name": "Tennessee",
-    "GeoCode": "null"
+    "GeoCode": "Tennessee, USA"
   },
   {
     "Code": "TX",
     "CountryCode": "US",
     "Name": "Texas",
-    "GeoCode": "null"
+    "GeoCode": "Texas, USA"
   },
   {
     "Code": "UT",
     "CountryCode": "US",
     "Name": "Utah",
-    "GeoCode": "null"
+    "GeoCode": "Utah, USA"
   },
   {
     "Code": "VA",
     "CountryCode": "US",
     "Name": "Virginia",
-    "GeoCode": "null"
+    "GeoCode": "Virginia, USA"
   },
   {
     "Code": "VI",
     "CountryCode": "US",
     "Name": "Virgin Islands",
-    "GeoCode": "null"
+    "GeoCode": "U.S. Virgin Islands"
   },
   {
     "Code": "VT",
     "CountryCode": "US",
     "Name": "Vermont",
-    "GeoCode": "null"
+    "GeoCode": "Vermont, USA"
   },
   {
     "Code": "WA",
     "CountryCode": "US",
     "Name": "Washington",
-    "GeoCode": "null"
+    "GeoCode": "Washington, USA"
   },
   {
     "Code": "WI",
     "CountryCode": "US",
     "Name": "Wisconsin",
-    "GeoCode": "null"
+    "GeoCode": "Wisconsin, USA"
   },
   {
     "Code": "WV",
     "CountryCode": "US",
     "Name": "West Virginia",
-    "GeoCode": "null"
+    "GeoCode": "West Virginia, USA"
   },
   {
     "Code": "WY",
     "CountryCode": "US",
     "Name": "Wyoming",
-    "GeoCode": "null"
+    "GeoCode": "Wyoming, USA"
   }
 ]

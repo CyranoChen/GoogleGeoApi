@@ -47,6 +47,7 @@
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="System.Net.Http" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.ServiceModel.Web" />
@@ -70,6 +71,7 @@
   <ItemGroup>
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+    <Content Include="Api\GeoCodeGenerator.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -78,7 +80,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Api\GeoCodeGenerate.svc" />
     <Content Include="Api\GeoList.svc" />
     <Content Include="default.html" />
     <Content Include="Global.asax" />
@@ -93,13 +94,12 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Api\GeoCodeGenerate.svc.cs">
-      <DependentUpon>GeoCodeGenerate.svc</DependentUpon>
+    <Compile Include="Api\GeoCodeGenerator.ashx.cs">
+      <DependentUpon>GeoCodeGenerator.ashx</DependentUpon>
     </Compile>
     <Compile Include="Api\GeoList.svc.cs">
       <DependentUpon>GeoList.svc</DependentUpon>
     </Compile>
-    <Compile Include="Api\IGeoCodeGenerate.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

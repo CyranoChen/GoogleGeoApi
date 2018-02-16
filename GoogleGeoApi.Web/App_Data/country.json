@@ -1,598 +1,598 @@
-﻿[
+[
   {
     "Code": "EG",
     "Name": "Egypt",
-    "GeoCode": "null"
+    "GeoCode": "Egypt"
   },
   {
     "Code": "EH",
     "Name": "West Sahara",
-    "GeoCode": "null"
+    "GeoCode": "Western Sahara"
   },
   {
     "Code": "EL",
     "Name": "Greece",
-    "GeoCode": "null"
+    "GeoCode": "Greece"
   },
   {
     "Code": "ER",
     "Name": "Eritrea",
-    "GeoCode": "null"
+    "GeoCode": "Eritrea"
   },
   {
     "Code": "ES",
     "Name": "Spain",
-    "GeoCode": "null"
+    "GeoCode": "Spain"
   },
   {
     "Code": "ET",
     "Name": "Ethiopia",
-    "GeoCode": "null"
+    "GeoCode": "Ethiopia"
   },
   {
     "Code": "FI",
     "Name": "Finland",
-    "GeoCode": "null"
+    "GeoCode": "Finland"
   },
   {
     "Code": "FJ",
     "Name": "Fiji",
-    "GeoCode": "null"
+    "GeoCode": "Fiji"
   },
   {
     "Code": "FK",
     "Name": "Falkland Islands",
-    "GeoCode": "null"
+    "GeoCode": "FIQQ 1ZZ, Falkland Islands (Islas Malvinas)"
   },
   {
     "Code": "FM",
     "Name": "Micronesia",
-    "GeoCode": "null"
+    "GeoCode": "Federated States of Micronesia"
   },
   {
     "Code": "FO",
     "Name": "Faroe Islands",
-    "GeoCode": "null"
+    "GeoCode": "Faroe Islands"
   },
   {
     "Code": "FR",
     "Name": "France",
-    "GeoCode": "null"
+    "GeoCode": "France"
   },
   {
     "Code": "GA",
     "Name": "Gabon",
-    "GeoCode": "null"
+    "GeoCode": "Gabon"
   },
   {
     "Code": "GB",
     "Name": "United Kingdom",
-    "GeoCode": "null"
+    "GeoCode": "United Kingdom"
   },
   {
     "Code": "GD",
     "Name": "Grenada",
-    "GeoCode": "null"
+    "GeoCode": "Grenada"
   },
   {
     "Code": "GE",
     "Name": "Georgia",
-    "GeoCode": "null"
+    "GeoCode": "Georgia, USA"
   },
   {
     "Code": "GF",
     "Name": "French Guayana",
-    "GeoCode": "null"
+    "GeoCode": "French Guiana"
   },
   {
     "Code": "GG",
     "Name": "Guernsey",
-    "GeoCode": "null"
+    "GeoCode": "Guernsey"
   },
   {
     "Code": "GH",
     "Name": "Ghana",
-    "GeoCode": "null"
+    "GeoCode": "Ghana"
   },
   {
     "Code": "GI",
     "Name": "Gibraltar",
-    "GeoCode": "null"
+    "GeoCode": "Gibraltar"
   },
   {
     "Code": "GL",
     "Name": "Greenland",
-    "GeoCode": "null"
+    "GeoCode": "Greenland"
   },
   {
     "Code": "GM",
     "Name": "Gambia",
-    "GeoCode": "null"
+    "GeoCode": "The Gambia"
   },
   {
     "Code": "GN",
     "Name": "Guinea",
-    "GeoCode": "null"
+    "GeoCode": "Guinea"
   },
   {
     "Code": "GP",
     "Name": "Guadeloupe",
-    "GeoCode": "null"
+    "GeoCode": "Guadeloupe"
   },
   {
     "Code": "GQ",
     "Name": "Equatorial Guinea",
-    "GeoCode": "null"
+    "GeoCode": "Equatorial Guinea"
   },
   {
     "Code": "GR",
     "Name": "Greece",
-    "GeoCode": "null"
+    "GeoCode": "Greece"
   },
   {
     "Code": "GS",
     "Name": "S. Sandwich Ins",
-    "GeoCode": "null"
+    "GeoCode": "South Georgia and the South Sandwich Islands"
   },
   {
     "Code": "GT",
     "Name": "Guatemala",
-    "GeoCode": "null"
+    "GeoCode": "Guatemala"
   },
   {
     "Code": "GU",
     "Name": "Guam",
-    "GeoCode": "null"
+    "GeoCode": "Guam"
   },
   {
     "Code": "GW",
     "Name": "Guinea-Bissau",
-    "GeoCode": "null"
+    "GeoCode": "Guinea-Bissau"
   },
   {
     "Code": "GY",
     "Name": "Guyana",
-    "GeoCode": "null"
+    "GeoCode": "Guyana"
   },
   {
     "Code": "HK",
     "Name": "Hong Kong",
-    "GeoCode": "null"
+    "GeoCode": "Hong Kong"
   },
   {
     "Code": "HM",
     "Name": "Heard/McDnld Islnds",
-    "GeoCode": "null"
+    "GeoCode": "Heard Island and McDonald Islands"
   },
   {
     "Code": "HN",
     "Name": "Honduras",
-    "GeoCode": "null"
+    "GeoCode": "Honduras"
   },
   {
     "Code": "HR",
     "Name": "Croatia",
-    "GeoCode": "null"
+    "GeoCode": "Croatia"
   },
   {
     "Code": "HT",
     "Name": "Haiti",
-    "GeoCode": "null"
+    "GeoCode": "Haiti"
   },
   {
     "Code": "HU",
     "Name": "Hungary",
-    "GeoCode": "null"
+    "GeoCode": "Hungary"
   },
   {
     "Code": "ID",
     "Name": "Indonesia",
-    "GeoCode": "null"
+    "GeoCode": "Indonesia"
   },
   {
     "Code": "IE",
     "Name": "Ireland",
-    "GeoCode": "null"
+    "GeoCode": "Ireland"
   },
   {
     "Code": "IL",
     "Name": "Israel",
-    "GeoCode": "null"
+    "GeoCode": "Israel"
   },
   {
     "Code": "IM",
     "Name": "Isle of Man",
-    "GeoCode": "null"
+    "GeoCode": "Isle of Man"
   },
   {
     "Code": "IN",
     "Name": "India",
-    "GeoCode": "null"
+    "GeoCode": "India"
   },
   {
     "Code": "IO",
     "Name": "Brit.Ind.Oc.Ter",
-    "GeoCode": "null"
+    "GeoCode": "British Indian Ocean Territory"
   },
   {
     "Code": "IQ",
     "Name": "Iraq",
-    "GeoCode": "null"
+    "GeoCode": "Iraq"
   },
   {
     "Code": "IR",
     "Name": "Iran",
-    "GeoCode": "null"
+    "GeoCode": "Iran"
   },
   {
     "Code": "IS",
     "Name": "Iceland",
-    "GeoCode": "null"
+    "GeoCode": "Iceland"
   },
   {
     "Code": "IT",
     "Name": "Italy",
-    "GeoCode": "null"
+    "GeoCode": "Italy"
   },
   {
     "Code": "JE",
     "Name": "Jersey",
-    "GeoCode": "null"
+    "GeoCode": "Jersey"
   },
   {
     "Code": "JM",
     "Name": "Jamaica",
-    "GeoCode": "null"
+    "GeoCode": "Jamaica"
   },
   {
     "Code": "JO",
     "Name": "Jordan",
-    "GeoCode": "null"
+    "GeoCode": "Jordan"
   },
   {
     "Code": "JP",
     "Name": "Japan",
-    "GeoCode": "null"
+    "GeoCode": "Japan"
   },
   {
     "Code": "KE",
     "Name": "Kenya",
-    "GeoCode": "null"
+    "GeoCode": "Kenya"
   },
   {
     "Code": "KG",
     "Name": "Kyrgyzstan",
-    "GeoCode": "null"
+    "GeoCode": "Kyrgyzstan"
   },
   {
     "Code": "KH",
     "Name": "Cambodia",
-    "GeoCode": "null"
+    "GeoCode": "Cambodia"
   },
   {
     "Code": "KI",
     "Name": "Kiribati",
-    "GeoCode": "null"
+    "GeoCode": "Kiribati"
   },
   {
     "Code": "KM",
     "Name": "Comoros",
-    "GeoCode": "null"
+    "GeoCode": "Comoros"
   },
   {
     "Code": "KN",
     "Name": "St Kitts & Nevis",
-    "GeoCode": "null"
+    "GeoCode": "Saint Kitts, St Kitts & Nevis"
   },
   {
     "Code": "KP",
     "Name": "North Korea",
-    "GeoCode": "null"
+    "GeoCode": "North Korea"
   },
   {
     "Code": "KR",
     "Name": "South Korea",
-    "GeoCode": "null"
+    "GeoCode": "South Korea"
   },
   {
     "Code": "KW",
     "Name": "Kuwait",
-    "GeoCode": "null"
+    "GeoCode": "Kuwait"
   },
   {
     "Code": "KY",
     "Name": "Cayman Islands",
-    "GeoCode": "null"
+    "GeoCode": "Cayman Islands"
   },
   {
     "Code": "KZ",
     "Name": "Kazakhstan",
-    "GeoCode": "null"
+    "GeoCode": "Kazakhstan"
   },
   {
     "Code": "LA",
     "Name": "Laos",
-    "GeoCode": "null"
+    "GeoCode": "Laos"
   },
   {
     "Code": "LB",
     "Name": "Lebanon",
-    "GeoCode": "null"
+    "GeoCode": "Lebanon"
   },
   {
     "Code": "LC",
     "Name": "St. Lucia",
-    "GeoCode": "null"
+    "GeoCode": "St Lucia"
   },
   {
     "Code": "LI",
     "Name": "Liechtenstein",
-    "GeoCode": "null"
+    "GeoCode": "Liechtenstein"
   },
   {
     "Code": "LK",
     "Name": "Sri Lanka",
-    "GeoCode": "null"
+    "GeoCode": "Sri Lanka"
   },
   {
     "Code": "LR",
     "Name": "Liberia",
-    "GeoCode": "null"
+    "GeoCode": "Liberia"
   },
   {
     "Code": "LS",
     "Name": "Lesotho",
-    "GeoCode": "null"
+    "GeoCode": "Lesotho"
   },
   {
     "Code": "LT",
     "Name": "Lithuania",
-    "GeoCode": "null"
+    "GeoCode": "Lithuania"
   },
   {
     "Code": "LU",
     "Name": "Luxembourg",
-    "GeoCode": "null"
+    "GeoCode": "Luxembourg"
   },
   {
     "Code": "LV",
     "Name": "Latvia",
-    "GeoCode": "null"
+    "GeoCode": "Latvia"
   },
   {
     "Code": "LY",
     "Name": "Libya",
-    "GeoCode": "null"
+    "GeoCode": "Libya"
   },
   {
     "Code": "MA",
     "Name": "Morocco",
-    "GeoCode": "null"
+    "GeoCode": "Morocco"
   },
   {
     "Code": "MC",
     "Name": "Monaco",
-    "GeoCode": "null"
+    "GeoCode": "Monaco"
   },
   {
     "Code": "MD",
     "Name": "Moldavia",
-    "GeoCode": "null"
+    "GeoCode": "Moldova"
   },
   {
     "Code": "ME",
     "Name": "Montenegro",
-    "GeoCode": "null"
+    "GeoCode": "Montenegro"
   },
   {
     "Code": "MF",
     "Name": "Saint Martin",
-    "GeoCode": "null"
+    "GeoCode": "Saint Martin"
   },
   {
     "Code": "MG",
     "Name": "Madagascar",
-    "GeoCode": "null"
+    "GeoCode": "Madagascar"
   },
   {
     "Code": "MH",
     "Name": "Marshall Islands",
-    "GeoCode": "null"
+    "GeoCode": "Marshall Islands"
   },
   {
     "Code": "MK",
     "Name": "Macedonia",
-    "GeoCode": "null"
+    "GeoCode": "Macedonia (FYROM)"
   },
   {
     "Code": "ML",
     "Name": "Mali",
-    "GeoCode": "null"
+    "GeoCode": "Mali"
   },
   {
     "Code": "MM",
     "Name": "Myanmar",
-    "GeoCode": "null"
+    "GeoCode": "Myanmar (Burma)"
   },
   {
     "Code": "MN",
     "Name": "Mongolia",
-    "GeoCode": "null"
+    "GeoCode": "Mongolia"
   },
   {
     "Code": "MO",
     "Name": "Macau",
-    "GeoCode": "null"
+    "GeoCode": "Macau"
   },
   {
     "Code": "MP",
     "Name": "N.Mariana Island",
-    "GeoCode": "null"
+    "GeoCode": "Northern Mariana Islands"
   },
   {
     "Code": "MQ",
     "Name": "Martinique",
-    "GeoCode": "null"
+    "GeoCode": "Martinique"
   },
   {
     "Code": "MR",
     "Name": "Mauretania",
-    "GeoCode": "null"
+    "GeoCode": "Mauritania"
   },
   {
     "Code": "MS",
     "Name": "Montserrat",
-    "GeoCode": "null"
+    "GeoCode": "Montserrat"
   },
   {
     "Code": "MT",
     "Name": "Malta",
-    "GeoCode": "null"
+    "GeoCode": "Malta"
   },
   {
     "Code": "MU",
     "Name": "Mauritius",
-    "GeoCode": "null"
+    "GeoCode": "Mauritius"
   },
   {
     "Code": "MV",
     "Name": "Maldives",
-    "GeoCode": "null"
+    "GeoCode": "Maldives"
   },
   {
     "Code": "MW",
     "Name": "Malawi",
-    "GeoCode": "null"
+    "GeoCode": "Malawi"
   },
   {
     "Code": "MX",
     "Name": "Mexico",
-    "GeoCode": "null"
+    "GeoCode": "Mexico"
   },
   {
     "Code": "MY",
     "Name": "Malaysia",
-    "GeoCode": "null"
+    "GeoCode": "Malaysia"
   },
   {
     "Code": "MZ",
     "Name": "Mozambique",
-    "GeoCode": "null"
+    "GeoCode": "Mozambique"
   },
   {
     "Code": "NA",
     "Name": "Namibia",
-    "GeoCode": "null"
+    "GeoCode": "Namibia"
   },
   {
     "Code": "NC",
     "Name": "New Caledonia",
-    "GeoCode": "null"
+    "GeoCode": "New Caledonia"
   },
   {
     "Code": "NE",
     "Name": "Niger",
-    "GeoCode": "null"
+    "GeoCode": "Niger"
   },
   {
     "Code": "NF",
     "Name": "Norfolk Island",
-    "GeoCode": "null"
+    "GeoCode": "Norfolk Island"
   },
   {
     "Code": "NG",
     "Name": "Nigeria",
-    "GeoCode": "null"
+    "GeoCode": "Nigeria"
   },
   {
     "Code": "NI",
     "Name": "Nicaragua",
-    "GeoCode": "null"
+    "GeoCode": "Nicaragua"
   },
   {
     "Code": "NL",
     "Name": "Netherlands",
-    "GeoCode": "null"
+    "GeoCode": "Netherlands"
   },
   {
     "Code": "NO",
     "Name": "Norway",
-    "GeoCode": "null"
+    "GeoCode": "Norway"
   },
   {
     "Code": "NP",
     "Name": "Nepal",
-    "GeoCode": "null"
+    "GeoCode": "Nepal"
   },
   {
     "Code": "NR",
     "Name": "Nauru",
-    "GeoCode": "null"
+    "GeoCode": "Nauru"
   },
   {
     "Code": "NU",
     "Name": "Niue Islands",
-    "GeoCode": "null"
+    "GeoCode": "Niue"
   },
   {
     "Code": "NZ",
     "Name": "New Zealand",
-    "GeoCode": "null"
+    "GeoCode": "New Zealand"
   },
   {
     "Code": "OM",
     "Name": "Oman",
-    "GeoCode": "null"
+    "GeoCode": "Oman"
   },
   {
     "Code": "PA",
     "Name": "Panama",
-    "GeoCode": "null"
+    "GeoCode": "Panama"
   },
   {
     "Code": "PE",
     "Name": "Peru",
-    "GeoCode": "null"
+    "GeoCode": "Peru"
   },
   {
     "Code": "PF",
     "Name": "French Polynesia",
-    "GeoCode": "null"
+    "GeoCode": "French Polynesia"
   },
   {
     "Code": "PG",
     "Name": "Papua New Guinea",
-    "GeoCode": "null"
+    "GeoCode": "Papua New Guinea"
   },
   {
     "Code": "PH",
     "Name": "Philippines",
-    "GeoCode": "null"
+    "GeoCode": "Philippines"
   },
   {
     "Code": "PK",
     "Name": "Pakistan",
-    "GeoCode": "null"
+    "GeoCode": "Pakistan"
   },
   {
     "Code": "PL",
     "Name": "Poland",
-    "GeoCode": "null"
+    "GeoCode": "Poland"
   },
   {
     "Code": "PM",
     "Name": "St.Pier,Miquel.",
-    "GeoCode": "null"
+    "GeoCode": "St Pierre and Miquelon"
   },
   {
     "Code": "PN",
     "Name": "Pitcairn Islands",
-    "GeoCode": "null"
+    "GeoCode": "Pitcairn Islands"
   },
   {
     "Code": "PR",
     "Name": "Puerto Rico",
-    "GeoCode": "null"
+    "GeoCode": "Puerto Rico"
   },
   {
     "Code": "PS",
@@ -602,336 +602,336 @@
   {
     "Code": "PT",
     "Name": "Portugal",
-    "GeoCode": "null"
+    "GeoCode": "Portugal"
   },
   {
     "Code": "PW",
     "Name": "Palau",
-    "GeoCode": "null"
+    "GeoCode": "Palau"
   },
   {
     "Code": "PY",
     "Name": "Paraguay",
-    "GeoCode": "null"
+    "GeoCode": "Paraguay"
   },
   {
     "Code": "QA",
     "Name": "Qatar",
-    "GeoCode": "null"
+    "GeoCode": "Qatar"
   },
   {
     "Code": "RE",
     "Name": "Reunion",
-    "GeoCode": "null"
+    "GeoCode": "Reunion"
   },
   {
     "Code": "RO",
     "Name": "Romania",
-    "GeoCode": "null"
+    "GeoCode": "Romania"
   },
   {
     "Code": "RS",
     "Name": "Serbia",
-    "GeoCode": "null"
+    "GeoCode": "Serbia"
   },
   {
     "Code": "RU",
     "Name": "Russian Fed.",
-    "GeoCode": "null"
+    "GeoCode": "Russia"
   },
   {
     "Code": "RW",
     "Name": "Ruanda",
-    "GeoCode": "null"
+    "GeoCode": "Rwanda"
   },
   {
     "Code": "SA",
     "Name": "Saudi Arabia",
-    "GeoCode": "null"
+    "GeoCode": "Saudi Arabia"
   },
   {
     "Code": "SB",
     "Name": "Solomon Islands",
-    "GeoCode": "null"
+    "GeoCode": "Solomon Islands"
   },
   {
     "Code": "SC",
     "Name": "Seychelles",
-    "GeoCode": "null"
+    "GeoCode": "Seychelles"
   },
   {
     "Code": "SD",
     "Name": "Sudan",
-    "GeoCode": "null"
+    "GeoCode": "Sudan"
   },
   {
     "Code": "SE",
     "Name": "Sweden",
-    "GeoCode": "null"
+    "GeoCode": "Sweden"
   },
   {
     "Code": "SG",
     "Name": "Singapore",
-    "GeoCode": "null"
+    "GeoCode": "Singapore"
   },
   {
     "Code": "SH",
     "Name": "St. Helena",
-    "GeoCode": "null"
+    "GeoCode": "Saint Helena, STHL 1ZZ, St Helena, Ascension and Tristan da Cunha"
   },
   {
     "Code": "SI",
     "Name": "Slovenia",
-    "GeoCode": "null"
+    "GeoCode": "Slovenia"
   },
   {
     "Code": "SJ",
     "Name": "Svalbard",
-    "GeoCode": "null"
+    "GeoCode": "Svalbard, Svalbard and Jan Mayen"
   },
   {
     "Code": "SK",
     "Name": "Slovakia",
-    "GeoCode": "null"
+    "GeoCode": "Slovakia"
   },
   {
     "Code": "SL",
     "Name": "Sierra Leone",
-    "GeoCode": "null"
+    "GeoCode": "Sierra Leone"
   },
   {
     "Code": "SM",
     "Name": "San Marino",
-    "GeoCode": "null"
+    "GeoCode": "San Marino"
   },
   {
     "Code": "SN",
     "Name": "Senegal",
-    "GeoCode": "null"
+    "GeoCode": "Senegal"
   },
   {
     "Code": "SO",
     "Name": "Somalia",
-    "GeoCode": "null"
+    "GeoCode": "Raas Cabaad, Somalia"
   },
   {
     "Code": "SR",
     "Name": "Suriname",
-    "GeoCode": "null"
+    "GeoCode": "Suriname"
   },
   {
     "Code": "ST",
     "Name": "S.Tome,Principe",
-    "GeoCode": "null"
+    "GeoCode": "São Tomé and Príncipe"
   },
   {
     "Code": "SV",
     "Name": "El Salvador",
-    "GeoCode": "null"
+    "GeoCode": "El Salvador"
   },
   {
     "Code": "SX",
     "Name": "Sint Maarten",
-    "GeoCode": "null"
+    "GeoCode": "Sint Maarten"
   },
   {
     "Code": "SY",
     "Name": "Syria",
-    "GeoCode": "null"
+    "GeoCode": "Syria"
   },
   {
     "Code": "SZ",
     "Name": "Swaziland",
-    "GeoCode": "null"
+    "GeoCode": "Swaziland"
   },
   {
     "Code": "TC",
     "Name": "Turksh Caicosin",
-    "GeoCode": "null"
+    "GeoCode": "TKCA 1ZZ, Turks and Caicos Islands"
   },
   {
     "Code": "TD",
     "Name": "Chad",
-    "GeoCode": "null"
+    "GeoCode": "Chad"
   },
   {
     "Code": "TF",
     "Name": "French S.Territ",
-    "GeoCode": "null"
+    "GeoCode": "French Southern and Antarctic Lands"
   },
   {
     "Code": "TG",
     "Name": "Togo",
-    "GeoCode": "null"
+    "GeoCode": "Togo"
   },
   {
     "Code": "TH",
     "Name": "Thailand",
-    "GeoCode": "null"
+    "GeoCode": "Thailand"
   },
   {
     "Code": "TJ",
     "Name": "Tajikstan",
-    "GeoCode": "null"
+    "GeoCode": "Tajikistan"
   },
   {
     "Code": "TK",
     "Name": "Tokelau Islands",
-    "GeoCode": "null"
+    "GeoCode": "Tokelau"
   },
   {
     "Code": "TL",
     "Name": "East Timor",
-    "GeoCode": "null"
+    "GeoCode": "Timor-Leste"
   },
   {
     "Code": "TM",
     "Name": "Turkmenistan",
-    "GeoCode": "null"
+    "GeoCode": "Turkmenistan"
   },
   {
     "Code": "TN",
     "Name": "Tunisia",
-    "GeoCode": "null"
+    "GeoCode": "Tunisia"
   },
   {
     "Code": "TO",
     "Name": "Tonga",
-    "GeoCode": "null"
+    "GeoCode": "Tonga"
   },
   {
     "Code": "TP",
     "Name": "East Timor",
-    "GeoCode": "null"
+    "GeoCode": "Timor-Leste"
   },
   {
     "Code": "TR",
     "Name": "Turkey",
-    "GeoCode": "null"
+    "GeoCode": "Turkey"
   },
   {
     "Code": "TT",
     "Name": "Trinidad,Tobago",
-    "GeoCode": "null"
+    "GeoCode": "Trinidad and Tobago"
   },
   {
     "Code": "TV",
     "Name": "Tuvalu",
-    "GeoCode": "null"
+    "GeoCode": "Tuvalu"
   },
   {
     "Code": "TW",
     "Name": "Taiwan",
-    "GeoCode": "null"
+    "GeoCode": "Taiwan"
   },
   {
     "Code": "TZ",
     "Name": "Tanzania",
-    "GeoCode": "null"
+    "GeoCode": "Tanzania"
   },
   {
     "Code": "UA",
     "Name": "Ukraine",
-    "GeoCode": "null"
+    "GeoCode": "Ukraine"
   },
   {
     "Code": "UG",
     "Name": "Uganda",
-    "GeoCode": "null"
+    "GeoCode": "Uganda"
   },
   {
     "Code": "UM",
     "Name": "Minor Outl.Ins.",
-    "GeoCode": "null"
+    "GeoCode": "United States Minor Outlying Islands"
   },
   {
     "Code": "US",
     "Name": "USA",
-    "GeoCode": "null"
+    "GeoCode": "United States"
   },
   {
     "Code": "UY",
     "Name": "Uruguay",
-    "GeoCode": "null"
+    "GeoCode": "Uruguay"
   },
   {
     "Code": "UZ",
     "Name": "Uzbekistan",
-    "GeoCode": "null"
+    "GeoCode": "Uzbekistan"
   },
   {
     "Code": "VA",
     "Name": "Vatican City",
-    "GeoCode": "null"
+    "GeoCode": "00120, Vatican City"
   },
   {
     "Code": "VC",
     "Name": "St. Vincent",
-    "GeoCode": "null"
+    "GeoCode": "St Vincent, Irvine, CA 92618, USA"
   },
   {
     "Code": "VE",
     "Name": "Venezuela",
-    "GeoCode": "null"
+    "GeoCode": "Venezuela"
   },
   {
     "Code": "VG",
     "Name": "British Virg. Islnd",
-    "GeoCode": "null"
+    "GeoCode": "British Virgin Islands"
   },
   {
     "Code": "VI",
     "Name": "American Virg.Islnd",
-    "GeoCode": "null"
+    "GeoCode": "U.S. Virgin Islands"
   },
   {
     "Code": "VN",
     "Name": "Vietnam",
-    "GeoCode": "null"
+    "GeoCode": "Vietnam"
   },
   {
     "Code": "VU",
     "Name": "Vanuatu",
-    "GeoCode": "null"
+    "GeoCode": "Vanuatu"
   },
   {
     "Code": "WF",
     "Name": "Wallis,Futuna",
-    "GeoCode": "null"
+    "GeoCode": "Wallis and Futuna"
   },
   {
     "Code": "WS",
     "Name": "Western Samoa",
-    "GeoCode": "null"
+    "GeoCode": "Samoa"
   },
   {
     "Code": "XX",
     "Name": "-No Country-",
-    "GeoCode": "null"
+    "GeoCode": "Norway"
   },
   {
     "Code": "YE",
     "Name": "Yemen",
-    "GeoCode": "null"
+    "GeoCode": "Yemen"
   },
   {
     "Code": "YT",
     "Name": "Mayotte",
-    "GeoCode": "null"
+    "GeoCode": "Mayotte"
   },
   {
     "Code": "ZA",
     "Name": "South Africa",
-    "GeoCode": "null"
+    "GeoCode": "South Africa"
   },
   {
     "Code": "ZM",
     "Name": "Zambia",
-    "GeoCode": "null"
+    "GeoCode": "Zambia"
   },
   {
     "Code": "ZW",
     "Name": "Zimbabwe",
-    "GeoCode": "null"
+    "GeoCode": "Zimbabwe"
   }
 ]

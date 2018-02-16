@@ -123,12 +123,12 @@
             <tr>
                 <td>
                     <input id="input-state" style="width: 150px" placeholder="State filled by Google" />
-                    <button id="btn-gen-state">gen</button>
+                    <button id="btn-gen-state" disabled="true">gen</button>
                     <button id="btn-find-state">find</button>
                 </td>
                 <td>
                     <input id="input-country" style="width: 150px" placeholder="Country filled by Google" />
-                    <button id="btn-gen-country">gen</button>
+                    <button id="btn-gen-country" disabled="true">gen</button>
                     <button id="btn-find-country">find</button>
                 </td>
             </tr>
@@ -248,6 +248,22 @@
                 }
             });
 
+            $("#btn-gen-state").click(function () {
+                $.getJSON("/api/GeoCodeGenerator.ashx?type=state", function (data, status) {
+                    if (status === "success" && data != null) {
+                        alert(JSON.stringify(data));
+                    }
+                });
+            });
+
+            $("#btn-gen-country").click(function () {
+                $.getJSON("/api/GeoCodeGenerator.ashx?type=country", function (data, status) {
+                    if (status === "success" && data != null) {
+                        alert(JSON.stringify(data));
+                    }
+                });
+            });
+
             const GOOGLE_MAP_API_ADDRESS = "https://maps.googleapis.com/maps/api/geocode/json";
             const API_KEY = "AIzaSyASawSYd14E234TX0YN7vhXOBjeIuswxsw";
 
@@ -293,7 +309,7 @@
                     $.getJSON(GOOGLE_MAP_API_ADDRESS, { address: state.replace(' ', '+'), key: API_KEY }, function (data, status) {
                         if (status === "success" && data != null) {
                             if (JSON.stringify(data) !== "{}" && data.status === "OK") {
-                                alert("Ouput State: "+ data.results[0].formatted_address);
+                                alert("Ouput State: " + data.results[0].formatted_address);
                                 $("#select-state").val(data.results[0].formatted_address);
                             }
                         }
