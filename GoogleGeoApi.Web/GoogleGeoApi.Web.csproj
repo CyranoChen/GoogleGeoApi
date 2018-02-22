@@ -72,6 +72,8 @@
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
     <Content Include="Api\GeoCodeGenerator.ashx" />
+    <Content Include="Data\country.json" />
+    <Content Include="Data\state.json" />
     <None Include="Properties\PublishProfiles\GoogleGeoApi.Publish.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -84,8 +86,6 @@
     <Content Include="Api\GeoList.svc" />
     <Content Include="default.html" />
     <Content Include="Global.asax" />
-    <Content Include="App_Data\country.json" />
-    <Content Include="App_Data\state.json" />
     <None Include="packages.config" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />

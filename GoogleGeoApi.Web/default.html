@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
     <style type="text/css">
+
         /* Always set the map height explicitly to define the size of the div
         * element that contains the map. */
         #map {
@@ -18,8 +19,8 @@
             padding: 0;
         }
     </style>
-
     <style>
+
         #locationField, #controls {
             position: relative;
             width: 480px;
@@ -68,13 +69,11 @@
         }
     </style>
 </head>
-
 <body>
     <div class="wrapper">
         <div id="locationField">
             <input id="autocomplete" placeholder="Enter your address" onFocus="geolocate()" type="text" />
         </div>
-
         <table id="address">
             <tr>
                 <td class="label">Street address</td>
@@ -112,7 +111,6 @@
                 </td>
             </tr>
         </table>
-
         <table style="width: 480px">
             <tr>
                 <td colspan="2" style="display: none">
@@ -122,30 +120,28 @@
             </tr>
             <tr>
                 <td>
-                    <input id="input-state" style="width: 150px" placeholder="State filled by Google" />
+                    <input id="input-state" style="width: 140px" placeholder="State filled by Google" />
                     <button id="btn-gen-state" disabled="true">gen</button>
                     <button id="btn-find-state">find</button>
                 </td>
                 <td>
-                    <input id="input-country" style="width: 150px" placeholder="Country filled by Google" />
+                    <input id="input-country" style="width: 140px" placeholder="Country filled by Google" />
                     <button id="btn-gen-country" disabled="true">gen</button>
                     <button id="btn-find-country">find</button>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <select id="select-state" style="width: 200px"></select>
+                    <select id="select-state" style="width: 220px"></select>
                 </td>
                 <td>
-                    <select id="select-country" style="width: 200px"></select>
+                    <select id="select-country" style="width: 220px"></select>
                 </td>
             </tr>
         </table>
     </div>
-
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASawSYd14E234TX0YN7vhXOBjeIuswxsw&libraries=places&callback=initAutocomplete"
             async defer></script>
-
     <script type="text/javascript">
         // This example displays an address form, using the autocomplete feature
         // of the Google Places API to help users fill in the information.
@@ -215,17 +211,29 @@
             }
         }
     </script>
-
     <script type="text/javascript" src="Scripts/jquery-3.3.1.min.js"></script>
-
     <script type="text/javascript">
         $(function () {
-            $.getJSON("/api/GeoList.svc/States", function (data, status) {
+            //$.getJSON("/api/GeoList.svc/States", function (data, status) {
+            //    if (status === "success" && data != null) {
+            //        if (JSON.stringify(data) !== "{}") {
+            //            $("#select-state").empty().append($("<option>", { value: " " })
+            //                .text("total " + data.d.length + " states"));
+            //            $.each(data.d,
+            //                function (i, entry) {
+            //                    $("#select-state").append($("<option>", { value: entry.GeoCode })
+            //                        .text(entry.Name + " (" + entry.Code + "), " + entry.CountryCode));
+            //                });
+            //        }
+            //    }
+            //});
+
+            $.getJSON("/data/state.json", function (data, status) {
                 if (status === "success" && data != null) {
-                    if (JSON.stringify(data) !== "{}") {
+                    if (JSON.stringify(data) !== "[]") {
                         $("#select-state").empty().append($("<option>", { value: " " })
-                            .text("total " + data.d.length + " states"));
-                        $.each(data.d,
+                            .text("total " + data.length + " states"));
+                        $.each(data,
                             function (i, entry) {
                                 $("#select-state").append($("<option>", { value: entry.GeoCode })
                                     .text(entry.Name + " (" + entry.Code + "), " + entry.CountryCode));
@@ -234,12 +242,12 @@
                 }
             });
 
-            $.getJSON("/api/GeoList.svc/Countries", function (data, status) {
+            $.getJSON("/data/country.json", function (data, status) {
                 if (status === "success" && data != null) {
-                    if (JSON.stringify(data) !== "{}") {
+                    if (JSON.stringify(data) !== "[]") {
                         $("#select-country").empty().append($("<option>", { value: " " })
-                            .text("total " + data.d.length + " countries"));
-                        $.each(data.d,
+                            .text("total " + data.length + " countries"));
+                        $.each(data,
                             function (i, entry) {
                                 $("#select-country").append($("<option>", { value: entry.GeoCode })
                                     .text(entry.Name + " (" + entry.Code + ")"));
@@ -247,6 +255,20 @@
                     }
                 }
             });
+
+            //$.getJSON("/api/GeoList.svc/Countries", function (data, status) {
+            //    if (status === "success" && data != null) {
+            //        if (JSON.stringify(data) !== "{}") {
+            //            $("#select-country").empty().append($("<option>", { value: " " })
+            //                .text("total " + data.d.length + " countries"));
+            //            $.each(data.d,
+            //                function (i, entry) {
+            //                    $("#select-country").append($("<option>", { value: entry.GeoCode })
+            //                        .text(entry.Name + " (" + entry.Code + ")"));
+            //                });
+            //        }
+            //    }
+            //});
 
             $("#btn-gen-state").click(function () {
                 $.getJSON("/api/GeoCodeGenerator.ashx?type=state", function (data, status) {
